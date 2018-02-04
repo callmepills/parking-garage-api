@@ -1,0 +1,10 @@
+language: java
+jdk:
+- oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: Re+wH1P2LKRpdi2oXpupFkKSN4Hddrt3DOX5pYCzi0P4SrTq7X9yc3dY9Jtg93P979LMNkQK/vOBrI8mPhJjI1UsHNFmv6QiF0MJ8+VvevFXGvv6+B6ALh66OT4PscwWwOxrG11yjOTmFi9gHIXprLS2LLeA4oKLzdCoip2VKYekq+PgLNSLWtqUDFNlREfXanCXzFcpyqIql6zSIFyjNtLdryMxjW9/1NVLUcvwhdo7TjUVnncO4yItJGyQmuBuigUVFvzHpEZ4QEnLWjxZj6ckplSSgD3enXpct6wyxsKdpcOhKXPMpOYVrgxSx2qILqi01QwlRQNP+q50C3Rq3IHVYJrsiOsq6p0FfYtDPn+RW7v1dUHRnLJrh2Xiixu0Gu9sgxOrH8EXwWW3hZS/5+NGS9gqXSVuBe+HeEmp5d6CEm8CiMWifTJTbrlRD00yweUOEYKZ+02LJWZEP1DEctJwk9oQk4B99ctZPkbn4Wo31VTk/I4Lu6dRZ2hYhOuSJfXPjLcgCXmOh/MkbrI5T4Lx4N1ZGA7zeQOyBodMowPKm/JKFm6AX0RVTZ4WtEFbpuprQ/5dKvJcKjFnqCziZJ3xFCyD3GenEroje609iQ3IbT0o5z0KT11Rpyiab12DbAeBDj96oSW1Lu/dX8/jGOGfmPbB/GAeL8er1cnfyP8=
+  app: parking-garage-api
+  on:
+    repo: callmepills/parking-garage-api
