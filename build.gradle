@@ -26,7 +26,9 @@ repositories {
 dependencies {
 	compile('org.apache.commons:commons-lang3:3.7')
 	compile('org.springframework.boot:spring-boot-starter-web')
-    compile("org.springframework.boot:spring-boot-starter-data-jpa")
-    compile("com.h2database:h2")
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile('com.h2database:h2')
+	compile('org.postgresql:postgresql:42.2.1')
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
