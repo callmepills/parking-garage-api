@@ -1,5 +1,7 @@
 # parking-garage-api
 
+[![Build Status](https://travis-ci.org/callmepills/parking-garage-api.svg?branch=master)](https://travis-ci.org/callmepills/parking-garage-api)
+
 Spring Boot backend for Parking Garage question tracking web application.
 
 ## Resources
